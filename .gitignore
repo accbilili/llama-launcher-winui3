@@ -1,0 +1,35 @@
+# Build outputs and local editor state
+**/bin/
+**/obj/
+.vs/
+.idea/
+*.user
+*.suo
+
+# Local release folders and generated artifacts
+/release-*/
+/portable/
+/app/
+/build-artifacts/
+/github-preview/
+*.zip
+*.pdb
+
+# Local logs, credentials, configuration, and machine-specific test reports
+*.log
+.env
+.env.*
+!.env.example
+settings.json
+settings.json.tmp
+models.json
+models.json.backup-*
+/smoke-results.json
+/dpi-before.json
+/dpi-after.json
+/icon-checks-*.json
+/static-checks-*.txt
+
+# Model weights are supplied separately
+*.gguf
+*.safetensors
